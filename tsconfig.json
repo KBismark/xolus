@@ -1,0 +1,19 @@
+{
+    "exclude": ["node_modules", "dist", "__tests__"],
+    "compilerOptions": {
+        "outDir": "dist",
+        "allowJs": true,
+        "esModuleInterop": true,
+        "declaration": true,
+        "jsx": "react-native",
+        "lib": ["es6","dom"],
+        "moduleResolution": "Node",
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "module": "commonjs",
+        "target": "es5",
+        "strict": false
+    },
+    "include": ["lib"]
+  }
+  
