@@ -1,7 +1,7 @@
 # Xolus
 A JSX template engine and a modern html rendering framework.    
 
-Xolus a progressive web framework to build web applications by reducing much complexities in known frameworks. 
+Xolus is a progressive web framework to build web applications by reducing much complexities in known frameworks. 
 It is an attempt to have the old way of building applications using just html, css and javaScript beautiful and interesting again. 
 It attempts to solve why you do not require over 300 mb of files just to start a "Hello world!" application. Imagine writing just 
 html but in a composable way.    
@@ -45,13 +45,13 @@ html but in a composable way.
 
 **It may look this way with Xolus**    
 
-> *App.jsx*     
+> *src/App.jsx*     
 
 ```tsx
 import { createComponent } from 'xolus'
 
 const App = createComponent({
-    // Define the view ou UI of the component
+    // Define the view or UI of the component
     template({parentRef, componentRef, props}){
         const ids = ['item1','item2','item3']
         return (
@@ -76,13 +76,13 @@ export default App
 
 **It may also look this way with Xolus Maps**    
 
-> *App.jsx*    
+> *src/App.jsx*    
 
 ```tsx
 import { createComponent } from 'xolus'
 
 const App = createComponent({
-    // Define the view ou UI of the component
+    // Define the view or UI of the component
     template({parentRef, componentRef, props}){
         const ids = ['item1','item2','item3']
         return (
