@@ -1,4 +1,4 @@
-# Xulos
+# Xolus
 A JSX template engine and a modern html rendering framework.    
 
 Xolus a progressive web framework to build web applications by reducing much complexities in known frameworks. 
@@ -107,11 +107,11 @@ export default App
 The xolus codes above will be converted to JavaScript codes that are only executable on the server to generate the corresponding HTML. 
 Your template codes only runs on the server hence, can perform all database requests for data in the `templateData` method. The 
 generated HTML is shipped along with `action` codes (more on action codes later) that allows your application to be interactable at first 
-sight with [statestore.js](https://github.com/kbismark/statestorejs) as the backbone for ensuring data access to your application both on the 
+sight with [statestore.js](https://github.com/kbismark/statestore.js) as the backbone for ensuring data access to your application both on the 
 server and on the browser. (TODO: Make the application composable on the broswer too since the template codes aren't available on the browser.)    
 Xolus also exposes APIs to allow pre-generation of HTML files for static websites.      
 
-Try Xolus with `npx create-xolus-app myapp`. Create Xolus App comes with Expressjs as the server framework and xulos us your JSX template engine.    
+Try Xolus with `npx create-xolus-app myapp`. Create Xolus App comes with Expressjs as the server framework and xolus us your JSX template engine.    
 
 ```js
 const {configure, renderPage, getSiteStats } = require('xolus')
