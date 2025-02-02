@@ -6,6 +6,10 @@ It is an attempt to have the old way of building applications using just html, c
 It attempts to solve why you do not require over 300 mb of files just to start a "Hello world!" application. Imagine writing just 
 html but in a composable way.    
 
+[Check out how I created a website using the Xolus framework](https://github.com/KBismark/turnibet)    
+
+<br/> 
+
 **A typical HTML file may look like this**    
 
 ```tsx
