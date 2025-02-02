@@ -6,6 +6,10 @@ It is an attempt to have the old way of building applications using just html, c
 It attempts to solve why you do not require over 300 mb of files just to start a "Hello world!" application. Imagine writing just 
 html but in a composable way.    
 
+```bash
+npx create-xolus-app myapp    
+```
+
 [Check out how I created a soccer betting tips website using the Xolus framework](https://github.com/KBismark/turnibet)     
 
 ![Xolus development environment preview](https://raw.githubusercontent.com/KBismark/xolus/refs/heads/master/xolus-preview.png)
@@ -118,6 +122,7 @@ server and on the browser. (TODO: Make the application composable on the broswer
 Xolus also exposes APIs to allow pre-generation of HTML files for static websites.      
 
 Try Xolus with `npx create-xolus-app myapp`. Create Xolus App comes with Expressjs as the server framework and xolus us your JSX template engine.    
+
 
 ```js
 const {configure, renderPage, getSiteStats } = require('xolus')
