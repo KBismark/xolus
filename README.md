@@ -10,8 +10,10 @@ html but in a composable way.
 npx create-xolus-app myapp    
 ```
 
-[Check out this repo to see how I created a soccer betting tips website using the Xolus framework](https://github.com/KBismark/turnibet)     
+[Check out this repo to see how I created a soccer betting tips website using the Xolus framework](https://github.com/KBismark/turnibet)    
 
+
+## Xolus development environment preview
 ![Xolus development environment preview](https://raw.githubusercontent.com/KBismark/xolus/refs/heads/master/xolus-preview.png)
 
 <br/> 
